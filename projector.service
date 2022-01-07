@@ -1,0 +1,11 @@
+[Unit]
+Description=Jetbrains Projector - Goland
+ 
+[Service]
+Environment="ORG_JETBRAINS_PROJECTOR_SERVER_AUTO_KEYMAP=False"
+Type=simple
+ExecStart=%h/.projector/configs/GoLand_1/run.sh
+Restart=always
+ 
+[Install]
+WantedBy=default.target
