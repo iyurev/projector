@@ -1,0 +1,4 @@
+com.intellij.CloudConfig
+org.jetbrains.plugins.github
+com.jetbrains.plugins.webDeployment
+Docker
